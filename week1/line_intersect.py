@@ -23,7 +23,7 @@ def does_it_intersect():
     x3, y3, x4, y4 = map(int, input().split())
 
     result1 = does_it_divide(x1, y1, x2, y2, x3, y3, x4, y4)
-    result2 = does_it_divide(x1, y1, x2, y2, x3, y3, x4, y4)
+    result2 = does_it_divide(x3, y3, x4, y4, x1, y1, x2, y2)
 
     if result1 and result2:
         return 1

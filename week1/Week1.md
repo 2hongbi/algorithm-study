@@ -19,12 +19,16 @@ L2와 L2가 교차하지 않으면 0
 4. 수직 조건 : <img src="https://latex.codecogs.com/svg.image?mm'=-1" title="mm'=-1" />
 
 <br>
+
 위의 조건들을 갖고 L1: (1, 5), (5, 1)과 L2: (1, 1), (5, 5)에 대입했다. <br>
-L1는 <img src="https://latex.codecogs.com/svg.image?y&space;=&space;-x&plus;6&space;" title="y = -x+6 " />, L2는 <img src="https://latex.codecogs.com/svg.image?y&space;=&space;x&space;" title="y = x " />로 위의 1번에 조건에 해당하여 만날 조건이 성사되었다.
+
+L1는 <img src="https://latex.codecogs.com/svg.image?y&space;=&space;-x&plus;6&space;" title="y = -x+6 " />,
+L2는 <img src="https://latex.codecogs.com/svg.image?y&space;=&space;x&space;" title="y = x " />로 위의 1번에 조건에 해당하여 만날 조건이 성사되었다.
+
 <br>
 하지만 두번째 가정에서 어긋났다. <br>
 L1: (1, 1), (5, 5), L2: (6, 10), (10,6)을 지난다고 가정했을 때, 두 점을 지나는 직선이라고 가정한다면 위의 조건이 성립하지만, 선분이기 떄문에 두 선분은 만나지 않았다. <br>
-* 직선은 기울기가 다르기만 하면(평행하지 않을 때면) 교차하게 되는데, 선분이라 길이가 정해져 있는걸 간과했다. *
+*직선은 기울기가 다르기만 하면(평행하지 않을 때면) 교차하게 되는데, 선분이라 길이가 정해져 있는걸 간과했다.*
 <br>그래서 다른 방법을 고민했다.
 
 

@@ -55,8 +55,10 @@ def moo(num):
 if __name__ == '__main__':
     num = int(input())
 
-    # 첫 번째
+    # 첫 번째 : 노가다
     # print(moo_sequence()[num-1])
 
-    # 두 번째
+    # 두 번째 : factorial 수열
     print(moo(4)[num-1])
+
+    # 개선 방향 : 무한 수열임을 이용할 것

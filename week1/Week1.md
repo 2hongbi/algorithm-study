@@ -9,8 +9,8 @@
 L1과 L2가 교차하면 1 <br>
 L2와 L2가 교차하지 않으면 0
 <br>
-<img src="https://user-images.githubusercontent.com/79040336/133923107-18f12043-14cc-43ad-bd29-ec6865a38946.PNG" width="200" height="200"/>
-<img src="https://user-images.githubusercontent.com/79040336/133923110-9332bfe1-aee1-4e58-a9bf-2a628b11ccaa.PNG" width="200" height="200"/>
+![선분교차1-문제](./../img/cross_1.png)
+![선분교차1-문제](./../img/cross_2.png)
 
 <hr>
 
@@ -25,7 +25,7 @@ L2와 L2가 교차하지 않으면 0
 
 <br>
 
-<img src="https://user-images.githubusercontent.com/79040336/133923117-1e6f87ba-7f09-4ad6-9b81-993bb0e998a7.jpg" />
+![선분교차1-문제푸는과정](./../img/cross_3.jpg)
 
 위의 조건들을 갖고 L1: (1, 5), (5, 1)과 L2: (1, 1), (5, 5)에 대입했다. <br>
 
@@ -49,7 +49,7 @@ __*직선은 기울기가 다르기만 하면(평행하지 않을 때면) 교차
 만약, 둘 다 선분이라고 가정하지 말고, 하나의 직선과 하나의 선분으로 이루어졌다고 생각해보자. <br>
 직선 하나가 다른 선분을 둘로 나누면 만난다고 생각할 수 있지 않을까? <br>
 
-<img src="https://user-images.githubusercontent.com/79040336/133923114-bd1cb38b-5fc3-490b-acbd-31b5745d60d7.jpg" />
+![선분교차1-문제푸는과정2](./../img/cross_4.jpg)
 
 즉, L1과 L2의 선분을 확장한 직선을 직선1, 직선2라고 가정하자. <br>
 직선1에 의해 L2가 나누어진다면, 또 반대로 직선2에 의해 L1이 둘로 나누어진다면 둘은 만나다고 할 수 있지 않겠냐는 것이다. <br>
@@ -58,9 +58,12 @@ __*직선은 기울기가 다르기만 하면(평행하지 않을 때면) 교차
 
 -> 직선을 기준으로 각각 반대 방향에 있으면 되지 않나?
 
-<img src="https://user-images.githubusercontent.com/79040336/133923118-d8991e29-994c-48e8-b420-a1db0bcc69be.jpg" />
+![선분교차1-문제푸는과정](./../img/cross_5.jpg)
 
 <hr>
 
 ### 결과
-<img src="https://user-images.githubusercontent.com/79040336/133923116-7580e2c3-7fdd-478a-b2d2-9c9bc1963f11.jpg" />
+![선분교차1-문제푸는과정](./../img/cross_6.jpg)
+
+
+

@@ -1,4 +1,4 @@
-package ch01;
+package practice.ch01;
 
 public class Max3m {
     // a, b, c의 최대값을 구하여 반환

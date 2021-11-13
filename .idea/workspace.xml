@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f952b097-ad56-4814-9257-d6a44ccdf4f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch01/SumFor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch01/SumGauss_Q8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch01/SumOf_Q9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ch01/SumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etc/Maze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etc/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etc/Q1Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etc/QuickSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,16 +47,17 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,7 +65,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
@@ -79,13 +77,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumOf_Q9">
-    <configuration name="SumFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch01.SumFor" />
+  <component name="RunManager" selected="Application.Maze">
+    <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="etc.Maze" />
       <module name="java-algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch01.*" />
+          <option name="PATTERN" value="etc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,8 +91,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumGauss_Q8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch01.SumGauss_Q8" />
+    <configuration name="Q1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="etc.Q1" />
+      <module name="java-algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="etc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q1Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="etc.Q1Sort" />
+      <module name="java-algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="etc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch01.SumFor" />
       <module name="java-algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -121,12 +145,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SumOf_Q9" />
-        <item itemvalue="Application.SumGauss_Q8" />
+        <item itemvalue="Application.Maze" />
+        <item itemvalue="Application.Q1Sort" />
+        <item itemvalue="Application.Q1" />
         <item itemvalue="Application.SumFor" />
+        <item itemvalue="Application.SumOf_Q9" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -137,37 +164,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634030980055</updated>
-      <workItem from="1634030985042" duration="6168000" />
+      <workItem from="1634030985042" duration="6953000" />
+      <workItem from="1635157721069" duration="588000" />
+      <workItem from="1635219201722" duration="3988000" />
+      <workItem from="1635435096021" duration="1941000" />
+      <workItem from="1636374590741" duration="1480000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state width="1305" height="176" key="GridCell.Tab.0.bottom" timestamp="1634055299639">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1305" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-311.1536.824@0.0.1366.728" timestamp="1634055299639" />
-    <state width="1305" height="176" key="GridCell.Tab.0.center" timestamp="1634055299639">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1305" height="176" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-311.1536.824@0.0.1366.728" timestamp="1634055299639" />
-    <state width="1305" height="176" key="GridCell.Tab.0.left" timestamp="1634055299638">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1305" height="176" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-311.1536.824@0.0.1366.728" timestamp="1634055299638" />
-    <state width="1305" height="176" key="GridCell.Tab.0.right" timestamp="1634055299639">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1305" height="176" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-311.1536.824@0.0.1366.728" timestamp="1634055299639" />
-    <state x="178" y="0" key="SettingsEditor" timestamp="1634055176832">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="178" y="0" key="SettingsEditor/0.0.1366.728/-1920.-311.1536.824@0.0.1366.728" timestamp="1634055176832" />
-    <state x="448" y="69" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1634038473226">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="448" y="69" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/-1920.-311.1536.824@0.0.1366.728" timestamp="1634038473226" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

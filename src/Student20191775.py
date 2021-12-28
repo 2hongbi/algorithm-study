@@ -15,6 +15,12 @@ def min_error(mean, lst):
 def main():
     in_list = list(map(int, input().split()))
 
+    list_len = in_list.pop(0)
+    group_len = in_list.pop(0)
+    if list_len != len(in_list):
+        print('>> ERROR : The list length is not equal!')
+        return False
+
     # sort
     in_list.sort()
     print(in_list)
@@ -39,9 +45,9 @@ def main():
     # get min square error from each group
 
     mse_list = [min_error(average(out), out) for out in output]
-    print('>> LIST GROUP : {0}, Min value : {1}'.format(mse_list, min(mse_list)))
+    print('>> MSE LIST : {0}, MSE TOTAL : {1}'.format(mse_list, sum(mse_list)))
 
-    return min(mse_list)
+    return sum(mse_list)
 
 
 if __name__ == '__main__':

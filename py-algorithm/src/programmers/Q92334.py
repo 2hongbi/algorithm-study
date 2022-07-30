@@ -9,6 +9,9 @@ def solution(id_list, report, k):
     report_dic = collections.defaultdict(list)
     count_dic = collections.defaultdict(int)
 
+    print(report_dic)
+    print(count_dic)
+
     for r in report:
         reporter, reported = r.split()
         report_dic[reporter].append(reported)
